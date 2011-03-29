@@ -50,20 +50,20 @@
 + :reg View contents of registers
 
 # Code folding
-+ zo Open fold
-+ zc Close fold
-+ zr Reduce fold level
-+ zm Increase fold level
-+ zR Reduce all folds
-+ zM Increase all folds
-+ zj Move to next fold downwards
-+ zk Move to next fold upward
-+ zd Delte folding
-+ zE Delete all folds
-+ zf#j Create fold of # lines below cursor
-+ :#,& fold Create fold beetween line # and &
-+ zfap Create fold of paragpraph
-+ zfa} Create fold in {} brackets
-+ zfa) Create fold in () brackets
-+ zfa] Create fold in [] brackets
-+ zfa> Create fold in <> brackets
+  zo Open fold
+  zc Close fold
+  zr Reduce fold level
+  zm Increase fold level
+  zR Reduce all folds
+  zM Increase all folds
+  zj Move to next fold downwards
+  zk Move to next fold upward
+  zd Delte folding
+  zE Delete all folds
+  zf#j Create fold of # lines below cursor
+  :#,& fold Create fold beetween line # and &
+  zfap Create fold of paragpraph
+  zfa} Create fold in {} brackets
+  zfa) Create fold in () brackets
+  zfa] Create fold in [] brackets
+  zfa> Create fold in <> brackets
