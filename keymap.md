@@ -45,8 +45,8 @@
 + `ci}` Replace between {} pair
 + `ci>` Replace between <> pair
 + `cit` Replace beetween XML/HTML tag pair
-+ `<ctrl>A` Increment number under cursor
-+ `<ctrl>X` Decrement number under cursor
++ `<ctrl> A` Increment number under cursor
++ `<ctrl> X` Decrement number under cursor
 + `x` Delete character under cursor
 + `X` Delete character before cursor
 + `\>\>` Indent entire line
@@ -85,9 +85,9 @@
 + `:%s/old/new/gc` Globally substitude old for new with prompt
 
 # External Calls
-+ `:!` <command> Execute an external command in the shell
-+ `:r` <file> Insert the contents of file at cursor position
-+ `:r` !<command> Insert ouptut of command at cursor position
++ `:! <command>` Execute an external command in the shell
++ `:r <file>` Insert the contents of file at cursor position
++ `:r !<command>` Insert ouptut of command at cursor position
 
 # Tabs
 + `:tabnew` Open a new tab
