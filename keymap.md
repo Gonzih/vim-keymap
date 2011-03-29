@@ -140,7 +140,7 @@
 + `O` Open new line before current line
 + `v` Switch to visual selection mode
 + `V` Switch to visual line selection mode
-+ `<crtl> V` Switch to visual block selection mode
++ `<crtl> v` Switch to visual block selection mode
 
 # Movement
 + `h` Move cursor left
@@ -172,3 +172,9 @@
 + `F#` Move cursor backwards character # on line
 + `t#` Move cursor forward to character before the next character # on line
 + `T#` Move cursor backward to character after the next character # on line
+
+# Macros
++ `q[a-zA-Z0-9]` Start recording macro into register [a-zA-Z0-9]
++ `q` End recording of current macro
++ `@[a-zA-Z0-9]` Playback macro from register [a-zA-Z0-9]
++ `n@[a-zA-Z0-9]` Playback macro from register [a-zA-Z0-9] n times
