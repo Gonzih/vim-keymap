@@ -126,6 +126,6 @@
 # Location
 + `<crtl> G` Show current position in file
 + `:f` Show line numbers
-+ `m[a-zA-Z]` Place mark [a-zA-Z] at cursor
-+ `\`[a-zA-Z]` Goto mark [a-zA-Z]
++ ` m[a-zA-Z] ` Place mark [a-zA-Z] at cursor
++ `` `[a-zA-Z] `` Goto mark [a-zA-Z]
 + `:marks` Show all marks
