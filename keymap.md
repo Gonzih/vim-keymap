@@ -178,3 +178,10 @@
 + `q` End recording of current macro
 + `@[a-zA-Z0-9]` Playback macro from register [a-zA-Z0-9]
 + `n@[a-zA-Z0-9]` Playback macro from register [a-zA-Z0-9] n times
+
+#Misc
++ `u` Undo
++ `U` Restore line
++ `<ctrl> r` Redo
++ `J` Join line below to current line
++ `.` Repeat last command
