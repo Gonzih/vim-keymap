@@ -95,3 +95,18 @@
 + `<ctrl> PgUp` Switch to tab on Right
 + `<ctrl> PgDn` Switch to tab on Left
 + `:tabdo <command>` Run command in all tabs
+
+#Panes
++ `:vnew` Split window/pane vertically
++ `:new` Split window/pane horizontally
++ `<ctrl> W + H` Switch to pane to the left
++ `<ctrl> W + L` Switch to pane to the right
++ `<ctrl> W + J` Switch to pane to the below
++ `<ctrl> W + K` Switch to pane to the above
++ `<ctrl> W + _` Give all vertical space to current pane
++ `<ctrl> W + |` Give all horizontal space to current pane
++ `<ctrl> W + =` Evenly distribute space for all panes
++ `<ctrl> W + +` Increase current pane height
++ `<ctrl> W + -` Descrease current pane height
++ `<ctrl> W + >` Increase current pane width
++ `<ctrl> W + <` Descrease current pane width
