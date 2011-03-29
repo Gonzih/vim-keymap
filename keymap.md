@@ -93,5 +93,5 @@
 + :tabnew Open a new tab
 + :tabe <file> Open file in a new tab
 + <ctrl> PgUp Switch to tab on Right
-+ <ctrl> PgDn Switch to tab on Left
++ `<ctrl> PgDn` Switch to tab on Left
 + :tabdo <command> Run command in all tabs
