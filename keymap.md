@@ -141,3 +141,34 @@
 + `v` Switch to visual selection mode
 + `V` Switch to visual line selection mode
 + `<crtl> V` Switch to visual block selection mode
+
+# Movement
++ `h` Move cursor left
++ `l` Move cursor right
++ `j` Move cursor down
++ `k` Move cursor up
++ `gj` Move cursor down one display line
++ `gk` Move cursor up one display line
++ `H` Move cursor to top of display
++ `M` Move cursor to middle of display
++ `L` Move cursor to bottom of display
++ `w` Move cursor forward to start of next word
++ `e` Move cursor to end of next word
++ `b` Move cursor backward one word
++ `)` Move cursor forward one sentence
++ `(` Move cursor backward one sentence
++ `0` Move cursor to start of line
++ `^` Move cursor to first character of line
++ `$` Move cursor to end of line
++ `<ctrl> F` Move cursor forward one screenful
++ `<ctrl> B` Move cursor backward one screenful
++ `<ctrl> U` Move cursor up half a screenful
++ `<ctrl> D` Move cursor down half a screenful
++ `gg` Move cursor to top of file
++ `G` Move cursor to bottom of file
++ `#G` Move cursor to line #
++ `#gg` Move cursor to line #
++ `f#` Move cursor forward to next character # on line
++ `F#` Move cursor backwards character # on line
++ `t#` Move cursor forward to character before the next character # on line
++ `T#` Move cursor backward to character after the next character # on line
