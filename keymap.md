@@ -1,7 +1,7 @@
 # Cut/Copy/Paste/Modify
 ## Cut/Delete
 + dd Delete current line
-+ #dd Delete # lines
++ \#dd Delete # lines
 + dw Delete current word
 + d$ Delete to end of line
 + D Delete to end of line
@@ -11,7 +11,7 @@
 ## Copy/Yank
 + yy Yank current line
 + Y Yank current line
-+ #yy Yank # lines
++ \#yy Yank # lines
 + yw Yank current word
 + y$ Yank to end of line
 + y^ Yank to beginning of line
@@ -44,7 +44,7 @@
 + <ctrl>X Decrement number under cursor
 + x Delete character under cursor
 + X Delete character before cursor
-+ >> Indent entire line
++ \>\> Indent entire line
 + << Unindent entire line
 + == Autoindent entire line
 + :reg View contents of registers
