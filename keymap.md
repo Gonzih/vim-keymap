@@ -74,7 +74,7 @@
 + `zfa>` Create fold in <> brackets
 
 # Search and Replace
-+ `/# Find # searching forward
++ `/#` Find # searching forward
 + `?#` Find # searching backward
 + `n` Continue search downwards
 + `N` Continue search upwards
