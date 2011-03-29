@@ -110,3 +110,15 @@
 + `<ctrl> W + -` Descrease current pane height
 + `<ctrl> W + >` Increase current pane width
 + `<ctrl> W + <` Descrease current pane width
+
+# File
++ `:e <file>` Open file
++ `:enew` New file
++ `:w` Save current file
++ `:w <file>` Save current file as filename
++ `:wq` Save and quit
++ `:x` Save and quit
++ `:q` Quit
++ `:q!` Force quit
++ `:bd` Delete/close buffer
++ `:hardcopy` Print file
