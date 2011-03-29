@@ -129,3 +129,15 @@
 + `m[a-zA-Z]` Place mark [a-zA-Z] at cursor
 + `` `[a-zA-Z]`` Goto mark [a-zA-Z]
 + `:marks` Show all marks
+
+# Text Insertion
++ `i` Insert text before cursor
++ `I` Insert text at beginning of line
++ `R` Start overtype mode
++ `a` Insert text after cursor
++ `A` Insert text af end of line
++ `o` Open new line following current line
++ `O` Open new line before current line
++ `v` Switch to visual selection mode
++ `V` Switch to visual line selection mode
++ `<crtl> V` Switch to visual block selection mode
