@@ -5,7 +5,7 @@
 + dw Delete current word
 + d$ Delete to end of line
 + D Delete to end of line
-+ :#,&d Delete from line # tp &
++ :#,&d Delete from line # to &
 + "[a-zA-Z0-9]dd Delete line into register [a-zA-Z0-9]
 + "+dd Delete line into host clipboard
 ## Copy/Yank
@@ -48,3 +48,22 @@
 + << Unindent entire line
 + == Autoindent entire line
 + :reg View contents of registers
+
+# Code folding
++ zo Open fold
++ zc Close fold
++ zr Reduce fold level
++ zm Increase fold level
++ zR Reduce all folds
++ zM Increase all folds
++ zj Move to next fold downwards
++ zk Move to next fold upward
++ zd Delte folding
++ zE Delete all folds
++ zf#j Create fold of # lines below cursor
++ :#,& fold Create fold beetween line # and &
++ zfap Create fold of paragpraph
++ zfa} Create fold in {} brackets
++ zfa) Create fold in () brackets
++ zfa] Create fold in [] brackets
++ zfa> Create fold in <> brackets
