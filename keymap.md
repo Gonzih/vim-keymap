@@ -1,4 +1,5 @@
 # Cut/Copy/Paste/Modify
+
 ## Cut/Delete
 + dd Delete current line
 + \#dd Delete # lines
@@ -8,6 +9,7 @@
 + :#,&d Delete from line # to &
 + "[a-zA-Z0-9]dd Delete line into register [a-zA-Z0-9]
 + "+dd Delete line into host clipboard
+
 ## Copy/Yank
 + yy Yank current line
 + Y Yank current line
@@ -18,12 +20,14 @@
 + :#,&y Yank from line # to &
 + "[a-zA-Z0-9]yy Yank line into register [a-zA-Z0-9]
 + "+yy Yank line into host clipboard
+
 ## Paste/Put
 + p Put current register at cursor
 + P Put current register before cursor
 + "[a-zA-Z0-9]p Put register [a-zA-Z0-9] at cursor
 + "+p put text from clipboard at cursor
 + ]p Put current register WRT indent
+
 ## Modify
 + gUw Switch case of word to CAPS
 + guw Switch case of word to lower
@@ -67,3 +71,14 @@
 + zfa) Create fold in () brackets
 + zfa] Create fold in [] brackets
 + zfa> Create fold in <> brackets
+
+# Search and Replace
++ /# Find # searching forward
++ ?# Find # searching backward
++ n Continue search downwards
++ N Continue search upwards
++ % Move to matching bracket from under cursor
++ :s/old/new/g Substitude old for new on line with no prompt
++ :#,&s/old/new/g Substitude old for new on lines # to & with no prompt
++ :%s/old/new/g Globally substitude old for new with no prompt
++ :%s/old/new/gc Globally substitude old for new with prompt
