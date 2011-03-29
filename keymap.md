@@ -82,3 +82,8 @@
 + :#,&s/old/new/g Substitude old for new on lines # to & with no prompt
 + :%s/old/new/g Globally substitude old for new with no prompt
 + :%s/old/new/gc Globally substitude old for new with prompt
+
+# External Calls
++ :! <command> Execute an external command in the shell
++ :r <file> Insert the contents of file at cursor position
++ :r !<command> Insert ouptut of command at cursor position
