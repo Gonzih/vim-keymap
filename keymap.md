@@ -87,3 +87,10 @@
 + :! <command> Execute an external command in the shell
 + :r <file> Insert the contents of file at cursor position
 + :r !<command> Insert ouptut of command at cursor position
+
+# Tabs
++ :tabnew Open a new tab
++ :tabe <file> Open file in a new tab
++ <ctrl> PgUp Switch to tab on Right
++ <ctrl> PgDn Switch to tab on Left
++ :tabdo <command> Run command in all tabs
