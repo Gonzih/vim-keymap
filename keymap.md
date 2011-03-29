@@ -66,7 +66,7 @@
 + `zd` Delte folding
 + `zE` Delete all folds
 + `zf#j` Create fold of # lines below cursor
-+ `:#,&` fold Create fold beetween line # and &
++ `:#,& fold` Create fold beetween line # and &
 + `zfap` Create fold of paragpraph
 + `zfa}` Create fold in {} brackets
 + `zfa)` Create fold in () brackets
