@@ -36,6 +36,7 @@
 + r# Replace character under cursor with #
 + ce Replace from cursor to end of word
 + c$ Replace from cursor to end of line
++ C Replace from cursor to end of line
 + c#w Replace # words
 + ci" Replace between double quote pair
 + ci' Replace between single quote pair
