@@ -21,7 +21,7 @@
 + `"[a-zA-Z0-9]yy` Yank line into register [a-zA-Z0-9]
 + `"+yy` Yank line into host clipboard
 
-##` Paste/Put
+## Paste/Put
 + `p` Put current register at cursor
 + `P` Put current register before cursor
 + `"[a-zA-Z0-9]p` Put register [a-zA-Z0-9] at cursor
