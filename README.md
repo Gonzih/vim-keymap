@@ -1,1 +1,1 @@
-Vim keymap maked from origin.png to vector graphics
+Vim keymap redrawed for larger size
