@@ -63,7 +63,7 @@
 + `zM` Increase all folds
 + `zj` Move to next fold downwards
 + `zk` Move to next fold upward
-+ `zd` Delte fold
++ `zd` Delete fold
 + `zE` Delete all folds
 + `zf#j` Create fold of # lines below cursor
 + `:#,& fold` Create fold beetween line # and &
